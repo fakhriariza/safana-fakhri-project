@@ -1,7 +1,7 @@
 import "./style.css";
 import InfoCard from "./TimeCard";
 import "animate.css";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import MusicPlayer from "./MusicPlayer";
 
 class MyComponent extends React.Component {
