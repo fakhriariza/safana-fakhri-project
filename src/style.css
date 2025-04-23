@@ -9,6 +9,7 @@
   align-items: center;
   background-image: url("assets/bg_all.png");
   justify-content: center;
+  margin-top: -40px;
 }
 
 /* Content styling */
@@ -66,7 +67,6 @@ body {
   flex-direction: column;
   z-index: 1003; /* Increased from -1 */
   justify-content: center;
-  margin-top: -30px;
 }
 
 .content p {
