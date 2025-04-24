@@ -22,7 +22,7 @@ class MyComponent extends React.Component {
         <div className="content animate__animated animate__fadeIn animate__slower animate__delay-4s">
           <p>Kepada Yth.</p>
           <h4>{name}</h4>
-          <p>Anda diundang untuk menghadiri</p>
+          <p>Bapak/Ibu diundang untuk menghadiri</p>
           <h1>Lamaran</h1>
           <div className="name">
             <h3>

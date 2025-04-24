@@ -9,7 +9,7 @@ export default function MusicPlayer() {
     if (!audio) return;
 
     // Set to muted first for autoplay
-    audio.muted = true;
+    // audio.muted = true;
     audio.volume = 1.0;
     audio.loop = true;
 
@@ -19,7 +19,7 @@ export default function MusicPlayer() {
         console.log("Audio started, unmuting...");
         setTimeout(() => {
           audio.muted = false;
-        }, 500); // unmute after a moment
+        }, 100); // unmute after a moment
       })
       .catch((e) => {
         console.log("Autoplay blocked, waiting for user interaction:", e);
